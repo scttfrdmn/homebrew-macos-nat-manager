@@ -8,6 +8,7 @@ class NatManager < Formula
 
   depends_on "go" => :build
   depends_on "dnsmasq"
+  depends_on "scttfrdmn/macos-askpass/macos-askpass"
 
   def install
     # Set version info for build
@@ -54,7 +55,7 @@ class NatManager < Formula
       
       ⚠️  Important Notes:
         • This tool requires root privileges (sudo) to modify network configuration
-        • Uses pfctl (built into macOS) and dnsmasq (installed as dependency)
+        • Uses pfctl (built into macOS), dnsmasq, and macos-askpass (installed as dependencies)
         • Creates bridge interfaces and configures NAT routing
         • Always stop NAT cleanly with 'nat-manager stop' before system shutdown
       
