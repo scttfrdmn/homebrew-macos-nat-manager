@@ -56,4 +56,4 @@ Unlike macOS's built-in Internet Sharing which operates as a bridge, NAT Manager
 
 ## License
 
-MIT © 2025 Scott Freedman
+MIT © 2025 Scott Friedman
