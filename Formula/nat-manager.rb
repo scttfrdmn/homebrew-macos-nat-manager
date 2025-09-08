@@ -2,7 +2,7 @@ class NatManager < Formula
   desc "🌐 macOS NAT Manager - True NAT with address translation"
   homepage "https://github.com/scttfrdmn/macos-nat-manager"
   url "https://github.com/scttfrdmn/macos-nat-manager/archive/v1.0.0.tar.gz"
-  sha256 "" # Will be updated when first release is created
+  sha256 "bd62eeac8bb112fd585ed6466f95335775c1fb1459f81e1fdc8b8ae49d0f2f83"
   license "MIT"
   head "https://github.com/scttfrdmn/macos-nat-manager.git", branch: "main"
 
